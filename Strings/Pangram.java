@@ -1,3 +1,5 @@
+//Find if the given string is a Pangram.
+//Hint: (Pangrams are sentences constructed by using every letter of the alphabet at least once.)
 import java.io.*;
 import java.util.*;
 import java.text.*;
