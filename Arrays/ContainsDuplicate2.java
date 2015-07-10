@@ -17,6 +17,7 @@ public class Solution
                 int j=h.get(nums[i]);
                 if(i-j<=k)
                     return true;
+                h.put(nums[i],i);
             }
             else
                 h.put(nums[i],i);
